@@ -1,3 +1,3 @@
-## aoc 2020
+### Advent of Code 🎄
 
-Solutions to Advent of Code 2020 in python
+Solutions to [Advent of Code](https://adventofcode.com/) in Python
