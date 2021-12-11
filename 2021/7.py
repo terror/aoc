@@ -26,4 +26,3 @@ def main(crabs):
 
 if __name__ == '__main__':
   main(list(map(int, open('input/7.txt').readlines()[0].split(','))))
-
