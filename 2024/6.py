@@ -84,6 +84,8 @@ def try_obstacle():
 
 for i in range(rows):
   for j in range(cols):
+    if (i, j) not in visited:
+      continue
     if grid[i][j] == '.':
       grid[i][j] = '#'
       if try_obstacle():
